@@ -18,7 +18,7 @@ import pytesseract
 import sys
 
 # ---------- CONFIG ----------
-IMAGE_NAME = "test.png"               # image file near the script
+IMAGE_NAME = "iamge.png"               # image file near the script
 MIN_ACCEPT_CONFIDENCE = 45           # accept if mean OCR confidence >= this
 USE_2CAPTCHA_FALLBACK = True         # set False to disable remote solver
 API_KEY_2CAPTCHA = "YOUR_2CAPTCHA_API_KEY"  # <-- replace if using 2Captcha
