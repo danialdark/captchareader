@@ -45,7 +45,7 @@ def read_white_numbers(image_path):
 
 # Run the function
 if __name__ == "__main__":
-    image_path = '/mnt/user-data/uploads/image.png'
+    image_path = '/var/www/html/py/captchareader/image.png'
     result = read_white_numbers(image_path)
     print(f"Detected number: {result}")
     
